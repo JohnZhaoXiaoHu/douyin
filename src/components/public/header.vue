@@ -1,8 +1,10 @@
 <template>
 	<div class="wrapper">
-		<a href="./index.html" class="left">
-			<img src="../../../static/img/plathformLogo.png" alt="logo">
-		</a>
+		<router-link to="/">
+			<a class="left">
+				<img src="../../../static/img/plathformLogo.png" alt="logo">
+			</a>
+		<router-link>
 		<div class="right">
 			<span class="iconfont">&#xe601;</span>
 			<p><a href="">&nbsp;&nbsp;&nbsp;登陆</a></p>
